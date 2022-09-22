@@ -1,0 +1,2 @@
+question1:  1. socket.AF_INET represents address family that is used to designate the type of addresses that connect with (IP address) 2. we use socket.SOCK_STREAM referring to TCP connect instead of UDP.
+question2: Client is the one who initiates the connection instead of server and some function inside server is different from the client.
