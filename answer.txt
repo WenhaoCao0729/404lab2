@@ -1,2 +1,5 @@
 question1:  1. socket.AF_INET represents address family that is used to designate the type of addresses that connect with (IP address) 2. we use socket.SOCK_STREAM referring to TCP connect instead of UDP.
 question2: Client is the one who initiates the connection instead of server and some function inside server is different from the client.
+question3: We use s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) to reuse the same bind port
+question4: the client responds Foobar and server responds Connected by ('127.0.0.1', 1).
+question5: It receive a close connection and it is a empty bitstream
